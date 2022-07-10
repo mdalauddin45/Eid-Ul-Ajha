@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-image: url(./image/cover7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 990px;
+    margin-bottom: 100px;
+}
+
+.section-text {
+    margin-left: 5%;
+    margin-right: 15%;
+    padding-top: 16%;
+}
+
+header h1 {
+    margin-bottom: 4%;
+    font-size: 80px;
+}
+
+header h1 span {
+    color: white;
+}
+
+header p {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 4%;
+}
+
+.btn1 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    box-shadow: 10px 10px 20px white;
+}
+
+.btn2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    box-shadow: 8px 8px 30px green;
+}
+
+#btn:hover {
+    box-shadow: 5px 5px 10px orange;
+}
+
+.second-sec {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.zakat-text {
+    width: 50%;
+    margin-top: 40px;
+
+}
+
+.second-sec div img {
+    margin-left: 25%;
+    width: 90%;
+    height: 120%;
+
+}
+
+.zakat-text h1,
+.third-sec h1,
+.forth h1,
+.head-text h1 {
+    margin-bottom: 6%;
+    font-size: 60px;
+}
+
+.zakat-text p,
+.third-sec p,
+.forth p,
+.head-text p {
+    font-size: 25px;
+    text-align: justify;
+    margin-bottom: 4%;
+}
+
+.third-sec {
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+.third-sec div img {
+    width: 90%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.second-sec-text {
+    margin-left: 15%;
+    width: 60%;
+}
+
+.forth p,
+.head-text p {
+    text-align: center;
+}
+
+.forth h1,
+.head-text h1 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.card-sec {
+    display: flex;
+    margin-left: 20%;
+}
+
+.card {
+    display: flex;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(251, 233, 236);
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 500px;
+    height: 200px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    text-align: justify;
+
+
+}
+
+.card img {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 20px lightpink;
+    padding-left: 5px;
+}
+
+.fifth-sec h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.fifth-sec-pictuer {
+    display: flex;
+    margin-left: 12%;
+}
+
+.fifth-sec img {
+    border-radius: 10px;
+    margin-left: 2%;
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.six-sec {
+    display: flex;
+    margin-left: 12%;
+    margin-bottom: 100px;
+}
+
+.second-card {
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    font-size: 15px;
+    margin-left: 2%;
+}
+
+.second-card img {
+    width: 100%;
+    margin-bottom: 5%;
+
+}
+
+.second-card h1,
+p,
+a {
+    padding-left: 20px;
+}
+
+.second-card p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.second-card a {
+    color: red;
+}
+
+.second-card:hover {
+    box-shadow: 10px 10px 20px lightgreen;
+    padding-left: 5px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer h1 {
+    color: red;
+    padding-bottom: 8px;
+}
